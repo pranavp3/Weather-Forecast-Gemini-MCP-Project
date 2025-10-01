@@ -28,7 +28,6 @@ class GeminiMCPClient:
     
     def __init__(self):
         # Initialize Gemini
-        api_key = "AIzaSyDh91qvAFN8X8vfuXylwWlE1OqxX0z3WTA"
         if not api_key:
             raise ValueError("GEMINI_API_KEY environment variable is required")
         
